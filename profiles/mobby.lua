@@ -1,6 +1,10 @@
+
+
 -- wheelchair_profile.lua
 
 api_version = 4
+-- 예시 프로파일 로드
+local custom_profile = require "custom"
 
 Set = require('lib/set')
 Sequence = require('lib/sequence')
